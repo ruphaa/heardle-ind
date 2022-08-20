@@ -24,6 +24,12 @@ Minimalistic clone of Heardle game for Indian songs.
     ✅ Input component
     ✅ Menu list
 
+✅ Build button component
+
+    ✅ Build basic button as internal component - which has onClick
+    ✅ Button accepts variants - primary, secondary
+    ✅ Icon button
+
 🔲 Create the following features:
     
     - About dialog
