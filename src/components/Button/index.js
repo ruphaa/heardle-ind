@@ -4,7 +4,7 @@ import './index.css';
 const variants = {
   primary: 'bg-green-500 hover:bg-green-600',
   secondary: 'bg-white hover:bg-slate-100',
-  icon: 'text-white'
+  icon: 'text-white hover:text-slate-400'
 }
 
 const textSizes = {
@@ -19,7 +19,7 @@ const Button = ({
   onClick,
   children,
 }) => {
-  const classname = `p-2 text-sm tracking-widest font-bold ${variants[variant]} ${textSizes[textSize]}`;
+  const classname = `py-2.5 px-4 tracking-widest font-bold ${variants[variant]} ${textSizes[textSize]}`;
   return (
     <button 
         className={classname}
