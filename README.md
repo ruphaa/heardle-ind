@@ -32,9 +32,9 @@ Minimalistic clone of Heardle game for tamil songs.
     
 🔲 Build Dialog component
 
-🔲 Build Input component
+✅ Build Autocomplete component
 
-🔲 Build List component
+✅ Build ListItem component
 
 🔲 Create the following features:
     
