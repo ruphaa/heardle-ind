@@ -1,6 +1,6 @@
 ### Heardle IND
 
-Minimalistic clone of Heardle game for Indian songs.
+Minimalistic clone of Heardle game for tamil songs.
 
 **Tech stack**
 
@@ -29,6 +29,12 @@ Minimalistic clone of Heardle game for Indian songs.
     ✅ Build basic button as internal component - which has onClick
     ✅ Button accepts variants - primary, secondary
     ✅ Icon button
+    
+🔲 Build Dialog component
+
+🔲 Build Input component
+
+🔲 Build List component
 
 🔲 Create the following features:
     
@@ -55,6 +61,7 @@ Minimalistic clone of Heardle game for Indian songs.
 🔲 Stat and history tracking
 
 🔲 Unlimited option
+
 ## Available Scripts
 
 In the project directory, you can run:
