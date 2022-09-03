@@ -1,0 +1,27 @@
+
+.list-item {
+    border: 1px solid #444;
+    padding: 8px;
+    height: 38px;
+    font-size: 14px;
+    display: flex;
+    line-height: 24px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.list-item .song-name {
+    --color-line: #A7A7A7;
+    color: var(--color-line);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list-item .result {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 8px;
+    margin-left: 2px;
+}
