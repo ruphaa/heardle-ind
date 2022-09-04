@@ -42,10 +42,8 @@ const Autocomplete = (props) => {
             left: 0,
             width: '100%',
             border: '1px solid var(--input-focus-color)',
-            borderTopWidth: '0'
-          }}
-          style={{
-            backgroundColor: 'pink'
+            borderBottomWidth: '0',
+            zIndex: '1000'
           }}
           wrapperStyle={{
             width: '100%',

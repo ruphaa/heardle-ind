@@ -17,13 +17,20 @@ const Button = ({
   variant = 'primary',
   textSize = 'medium',
   onClick,
+  className,
+  ariaLabel,
+  title,
   children,
+  ...rest
 }) => {
-  const classname = `py-2.5 px-4 tracking-widest font-bold ${variants[variant]} ${textSizes[textSize]}`;
+  const classname = `py-2.5 px-4 tracking-widest font-bold ${variants[variant]} ${textSizes[textSize]} ${className}`;
   return (
     <button 
         className={classname}
+        ariaLabel={ariaLabel}
+        title={title}
         onClick={onClick}
+        {...rest}
     >
       {children}
     </button>
